@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B82F8F361F7F7CCB008C66C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B82F8F351F7F7CCB008C66C4 /* AppDelegate.m */; };
+		B82F8F3E1F7F7CCB008C66C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B82F8F3D1F7F7CCB008C66C4 /* Assets.xcassets */; };
+		B82F8F411F7F7CCB008C66C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B82F8F3F1F7F7CCB008C66C4 /* LaunchScreen.storyboard */; };
+		B82F8F441F7F7CCB008C66C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B82F8F431F7F7CCB008C66C4 /* main.m */; };
+		B82F8F4D1F7F7CF6008C66C4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82F8F4B1F7F7CF6008C66C4 /* RootViewController.m */; };
+		B82F8F4E1F7F7CF6008C66C4 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B82F8F4C1F7F7CF6008C66C4 /* RootViewController.xib */; };
+		B82F8F531F7F7D49008C66C4 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82F8F511F7F7D49008C66C4 /* AViewController.m */; };
+		B82F8F541F7F7D49008C66C4 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B82F8F521F7F7D49008C66C4 /* AViewController.xib */; };
+		B82F8F5D1F7F7D63008C66C4 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82F8F5B1F7F7D63008C66C4 /* BViewController.m */; };
+		B82F8F5E1F7F7D63008C66C4 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B82F8F5C1F7F7D63008C66C4 /* BViewController.xib */; };
+		B82F8F621F7F7D6D008C66C4 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B82F8F601F7F7D6D008C66C4 /* CViewController.m */; };
+		B82F8F631F7F7D6D008C66C4 /* CViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B82F8F611F7F7D6D008C66C4 /* CViewController.xib */; };
+		B82F8F651F7F7E80008C66C4 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = B82F8F641F7F7E2F008C66C4 /* test.html */; };
+		B8B8CC381F7F8718001D42DD /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B8CC371F7F8718001D42DD /* CustomNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B82F8F311F7F7CCB008C66C4 /* H5-Camera-ImagePicker-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H5-Camera-ImagePicker-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B82F8F341F7F7CCB008C66C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B82F8F351F7F7CCB008C66C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B82F8F3D1F7F7CCB008C66C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B82F8F401F7F7CCB008C66C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B82F8F421F7F7CCB008C66C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B82F8F431F7F7CCB008C66C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B82F8F4A1F7F7CF6008C66C4 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B82F8F4B1F7F7CF6008C66C4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B82F8F4C1F7F7CF6008C66C4 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		B82F8F501F7F7D49008C66C4 /* AViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		B82F8F511F7F7D49008C66C4 /* AViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		B82F8F521F7F7D49008C66C4 /* AViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
+		B82F8F5A1F7F7D63008C66C4 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		B82F8F5B1F7F7D63008C66C4 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		B82F8F5C1F7F7D63008C66C4 /* BViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
+		B82F8F5F1F7F7D6D008C66C4 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		B82F8F601F7F7D6D008C66C4 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		B82F8F611F7F7D6D008C66C4 /* CViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CViewController.xib; sourceTree = "<group>"; };
+		B82F8F641F7F7E2F008C66C4 /* test.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		B8B8CC361F7F8718001D42DD /* CustomNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		B8B8CC371F7F8718001D42DD /* CustomNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B82F8F2E1F7F7CCB008C66C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B82F8F281F7F7CCB008C66C4 = {
+			isa = PBXGroup;
+			children = (
+				B82F8F331F7F7CCB008C66C4 /* H5-Camera-ImagePicker-Demo */,
+				B82F8F321F7F7CCB008C66C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B82F8F321F7F7CCB008C66C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B82F8F311F7F7CCB008C66C4 /* H5-Camera-ImagePicker-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B82F8F331F7F7CCB008C66C4 /* H5-Camera-ImagePicker-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				B82F8F4F1F7F7D23008C66C4 /* Controller */,
+				B82F8F341F7F7CCB008C66C4 /* AppDelegate.h */,
+				B82F8F351F7F7CCB008C66C4 /* AppDelegate.m */,
+				B82F8F4A1F7F7CF6008C66C4 /* RootViewController.h */,
+				B82F8F4B1F7F7CF6008C66C4 /* RootViewController.m */,
+				B82F8F4C1F7F7CF6008C66C4 /* RootViewController.xib */,
+				B82F8F3D1F7F7CCB008C66C4 /* Assets.xcassets */,
+				B82F8F3F1F7F7CCB008C66C4 /* LaunchScreen.storyboard */,
+				B82F8F421F7F7CCB008C66C4 /* Info.plist */,
+				B82F8F431F7F7CCB008C66C4 /* main.m */,
+			);
+			path = "H5-Camera-ImagePicker-Demo";
+			sourceTree = "<group>";
+		};
+		B82F8F4F1F7F7D23008C66C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B82F8F501F7F7D49008C66C4 /* AViewController.h */,
+				B82F8F511F7F7D49008C66C4 /* AViewController.m */,
+				B82F8F521F7F7D49008C66C4 /* AViewController.xib */,
+				B82F8F5A1F7F7D63008C66C4 /* BViewController.h */,
+				B82F8F5B1F7F7D63008C66C4 /* BViewController.m */,
+				B82F8F5C1F7F7D63008C66C4 /* BViewController.xib */,
+				B82F8F5F1F7F7D6D008C66C4 /* CViewController.h */,
+				B82F8F601F7F7D6D008C66C4 /* CViewController.m */,
+				B82F8F611F7F7D6D008C66C4 /* CViewController.xib */,
+				B82F8F641F7F7E2F008C66C4 /* test.html */,
+				B8B8CC361F7F8718001D42DD /* CustomNavigationController.h */,
+				B8B8CC371F7F8718001D42DD /* CustomNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B82F8F301F7F7CCB008C66C4 /* H5-Camera-ImagePicker-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B82F8F471F7F7CCB008C66C4 /* Build configuration list for PBXNativeTarget "H5-Camera-ImagePicker-Demo" */;
+			buildPhases = (
+				B82F8F2D1F7F7CCB008C66C4 /* Sources */,
+				B82F8F2E1F7F7CCB008C66C4 /* Frameworks */,
+				B82F8F2F1F7F7CCB008C66C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "H5-Camera-ImagePicker-Demo";
+			productName = "H5-Camera-ImagePicker-Demo";
+			productReference = B82F8F311F7F7CCB008C66C4 /* H5-Camera-ImagePicker-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B82F8F291F7F7CCB008C66C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Jakey;
+				TargetAttributes = {
+					B82F8F301F7F7CCB008C66C4 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B82F8F2C1F7F7CCB008C66C4 /* Build configuration list for PBXProject "H5-Camera-ImagePicker-Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B82F8F281F7F7CCB008C66C4;
+			productRefGroup = B82F8F321F7F7CCB008C66C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B82F8F301F7F7CCB008C66C4 /* H5-Camera-ImagePicker-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B82F8F2F1F7F7CCB008C66C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82F8F651F7F7E80008C66C4 /* test.html in Resources */,
+				B82F8F631F7F7D6D008C66C4 /* CViewController.xib in Resources */,
+				B82F8F5E1F7F7D63008C66C4 /* BViewController.xib in Resources */,
+				B82F8F541F7F7D49008C66C4 /* AViewController.xib in Resources */,
+				B82F8F411F7F7CCB008C66C4 /* LaunchScreen.storyboard in Resources */,
+				B82F8F3E1F7F7CCB008C66C4 /* Assets.xcassets in Resources */,
+				B82F8F4E1F7F7CF6008C66C4 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B82F8F2D1F7F7CCB008C66C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B82F8F531F7F7D49008C66C4 /* AViewController.m in Sources */,
+				B82F8F441F7F7CCB008C66C4 /* main.m in Sources */,
+				B8B8CC381F7F8718001D42DD /* CustomNavigationController.m in Sources */,
+				B82F8F621F7F7D6D008C66C4 /* CViewController.m in Sources */,
+				B82F8F361F7F7CCB008C66C4 /* AppDelegate.m in Sources */,
+				B82F8F5D1F7F7D63008C66C4 /* BViewController.m in Sources */,
+				B82F8F4D1F7F7CF6008C66C4 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B82F8F3F1F7F7CCB008C66C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B82F8F401F7F7CCB008C66C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B82F8F451F7F7CCB008C66C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos11.0;
+			};
+			name = Debug;
+		};
+		B82F8F461F7F7CCB008C66C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos11.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B82F8F481F7F7CCB008C66C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "H5-Camera-ImagePicker-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.H5-Camera-ImagePicker-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B82F8F491F7F7CCB008C66C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "H5-Camera-ImagePicker-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.H5-Camera-ImagePicker-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B82F8F2C1F7F7CCB008C66C4 /* Build configuration list for PBXProject "H5-Camera-ImagePicker-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82F8F451F7F7CCB008C66C4 /* Debug */,
+				B82F8F461F7F7CCB008C66C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B82F8F471F7F7CCB008C66C4 /* Build configuration list for PBXNativeTarget "H5-Camera-ImagePicker-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B82F8F481F7F7CCB008C66C4 /* Debug */,
+				B82F8F491F7F7CCB008C66C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B82F8F291F7F7CCB008C66C4 /* Project object */;
+}
